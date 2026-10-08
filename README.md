@@ -1,31 +1,31 @@
-# 1-3-5 Rule To-Do List
+# 1-3-5 Tasks _(135-tasks)_
 
-A simple productivity web app that implements the 1-3-5 rule: focus on **1 major task, 3 medium tasks, and 5 minor tasks** each day.
+A small browser-based daily task list built around the 1-3-5 productivity rule.
 
-## Try It Live
-**Visit [ameliaeckard.com](https://ameliaeckard.com) to use the app!**
+## Background
 
-## What is the 1-3-5 Rule?
-A proven productivity technique that prevents overwhelm by limiting daily tasks to:
-- **1 Large Task** - Your most important work
-- **3 Medium Tasks** - Important but not urgent items  
-- **5 Small Tasks** - Quick wins
+The 1-3-5 rule limits a day to one large task, three medium tasks, and five small tasks. This app keeps that constraint simple with local browser storage and no account or backend.
 
-## Features
-- Smart task limits (enforces 1-3-5 structure)
-- Visual progress tracking
-- Mobile responsive
-- Auto-saves tasks locally
-- Celebration animations
+## Install
 
-## Quick Start
-1. Add your 1 major task for today
-2. Add up to 3 medium priority tasks
-3. Add up to 5 small tasks
-4. Check them off as you complete them
-5. Celebrate when you finish all 9!
-(Or just add the ones you want and still get that celebration at the end!)
+```bash
+git clone https://github.com/ameliaeckard/135-tasks.git
+cd 135-tasks
+python -m http.server 8000
+```
 
-## Tech Stack
-Built with vanilla HTML, CSS, and JavaScript.
+## Usage
 
+Open `http://localhost:8000`, add tasks by size, and check them off as you finish. Progress is stored locally in the browser.
+
+## Maintainer
+
+[Amelia Eckard](https://github.com/ameliaeckard)
+
+## Contributing
+
+Issues are welcome for bugs or documentation problems. Please open an issue before a substantial pull request.
+
+## License
+
+UNLICENSED © Amelia Eckard.
