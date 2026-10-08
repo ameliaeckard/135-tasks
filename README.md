@@ -25,7 +25,3 @@ Open `http://localhost:8000`, add tasks by size, and check them off as you finis
 ## Contributing
 
 Issues are welcome for bugs or documentation problems. Please open an issue before a substantial pull request.
-
-## License
-
-UNLICENSED © Amelia Eckard.
